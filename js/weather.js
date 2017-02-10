@@ -6,9 +6,15 @@ if ('geolocation' in navigator) {
   loadWeather("Warsaw, PL", '');
 }
 
+
 $(document).ready(function () {
   setInterval(getWeather, 10000);
+  getWeather;
 });
+
+function getWeather() {
+  loadWeather;
+}
 
 function loadWeather(location, woeid) {
   $.simpleWeather({
