@@ -14,7 +14,7 @@ $(document).ready(function () {
 });
 
 function getWeather() {
-  loadWeather;
+  loadWeather();
 }
 
 function loadWeather(location, woeid) {
