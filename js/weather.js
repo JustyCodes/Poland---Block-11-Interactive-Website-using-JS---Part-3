@@ -13,10 +13,6 @@ $(document).ready(function () {
   getWeather();
 });
 
-function getWeather() {
-  loadWeather();
-}
-
 function loadWeather(location, woeid) {
   $.simpleWeather({
     location: location,
